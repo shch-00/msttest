@@ -1,0 +1,40 @@
+.socials {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+.socials__item {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color ease 0.3s;
+}
+
+.socials__item:hover {
+    color: #cbcbcb;
+}
+
+@media(max-width: 1023px) {
+    .socials {
+        flex-wrap: wrap;
+        max-width: 160px;
+    }
+}
+
+@media(max-width: 767px) {
+    .socials {
+        max-width: unset;
+        margin: 0 0 0 auto;
+    }
+}
+
+@media(max-width: 350px) {
+    .socials {
+        gap: 16px;
+    }
+}

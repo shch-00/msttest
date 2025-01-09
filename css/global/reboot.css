@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282829;
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}

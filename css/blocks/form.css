@@ -1,0 +1,134 @@
+.form {
+    width: 100%;
+    margin: 0 0 100px;
+}
+
+.form__container {
+    position: relative;
+    padding: 100px 0 0;
+    overflow: hidden;
+}
+
+.form__bg-img {
+    position: absolute;
+    bottom: -330px;
+    right: 170px;
+    pointer-events: none;
+}
+
+.form__bg-img img {
+    width: 660px;
+}
+
+.form__wrapper {
+    border: 2px #D5C9BE solid;
+    border-radius: 30px;
+    padding: 70px 135px;
+    background: #fff url("../../images/bg.JPEG") right;
+    background-size: cover;
+}
+
+.form__content {
+    display: flex;
+    max-height: 484px;
+    max-width: 780px;
+    flex-direction: column;
+    align-items: start;
+    gap: 45px;
+    position: relative;
+}
+
+.form__heading {
+    font-family: 'Prata', 'Arial', serif;
+    font-size: 54px;
+    line-height: 60px;
+    color: #38535D;
+    margin: 0;
+}
+
+.form__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+    width: 100%;
+}
+
+.form__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+}
+
+@media(max-width: 1550px) {
+    .form__content {
+        margin: 0 auto;
+    }
+
+    .form__bg-img {
+        right: 0;
+    }
+}
+
+@media(max-width: 1250px) {
+    .form__wrapper {
+        padding: 50px 70px;
+    }
+
+    .form__heading {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .form__bg-img {
+        right: -100px;
+    }
+
+    .form__bg-img img {
+        width: 640px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .form__container {
+        padding: 0;
+    }
+
+    .form__bg-img {
+        right: -90px;
+    }
+
+    .form__bg-img img {
+        width: 570px;
+    }
+
+    .form__wrapper {
+        background-position-x: center;
+    }
+}
+
+@media(max-width: 767px) {
+    .form {
+        margin: 0 0 50px;
+    }
+    
+    .form__content{
+        gap: 20px;
+    }
+
+    .form__bg-img {
+        display: none;
+    }
+
+    .form__heading {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+@media(max-width: 666px) {
+    .form__wrapper {
+        padding: 20px 30px;
+    }
+}

@@ -1,0 +1,22 @@
+/* Global  */
+
+@import "global/container.css";
+@import "global/reboot.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+
+@import "blocks/btn.css";
+@import "blocks/top-wrapper.css";
+@import "blocks/header.css";
+@import "blocks/main-nav.css";
+@import "blocks/hero.css";
+@import "blocks/main-image.css";
+@import "blocks/about.css";
+@import "blocks/form.css";
+@import "blocks/custom-input.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/custom-submit.css";
+@import "blocks/secondary-nav.css";
+@import "blocks/footer.css";
+@import "blocks/socials.css";

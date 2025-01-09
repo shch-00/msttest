@@ -1,0 +1,30 @@
+.custom-input {
+    display: flex;
+    width: 100%;
+}
+
+.custom-input__field {
+    height: 65px;
+    width: 100%;
+    padding: 38px 0 15px;
+    padding: 15px;
+    color: #405d65;
+    border: 2px #D5C9BE solid;
+    font-size: 24px;
+    line-height: 36px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.custom-input__field::placeholder {
+    color: rgba(85, 86, 90, 0.7);
+}
+
+@media(max-width: 767px) {
+    .custom-input__field {
+        height: 50px;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 10px;
+    }
+}
