@@ -1,5 +1,6 @@
 /* Global  */
 
+@import "global/fonts.css";
 @import "global/container.css";
 @import "global/reboot.css";
 @import "global/visually-hidden.css";

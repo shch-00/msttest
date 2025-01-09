@@ -1,6 +1,6 @@
 .main-image {
     position: relative;
-    z-index: 15;
+    z-index: 5;
 }
 
 .main-image__img {

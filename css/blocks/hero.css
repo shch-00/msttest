@@ -1,6 +1,6 @@
 .hero {
     width: 100%;
-    padding: 184px 0 0;
+    padding: 184px 0 50px;
 }
 
 .hero__content {
@@ -40,6 +40,8 @@
 }
 
 .hero__icon {
+    min-height: 40px;
+    min-width: 40px;
     width: 40px;
     height: 40px;
 }

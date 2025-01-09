@@ -4,7 +4,6 @@
     column-gap: 40px;
     row-gap: 100px;
     background-color: #222222;
-    padding: 0 0 50px;
 }
 
 @media(max-width: 1820px) {
