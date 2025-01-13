@@ -33,9 +33,9 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 460px) {
     .main-image img {
-        width: auto;
+        width: 100%;
         height: 100%;
     }
 }
